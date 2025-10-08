@@ -76,7 +76,6 @@ PyJWT==2.10.1
 pylint==3.3.7
 pyparsing==3.2.3
 pyperclip==1.9.0
-pyppeteer==2.0.0
 pyquery==2.0.1
 pyright==1.1.403
 PySocks==1.7.1
@@ -110,7 +109,7 @@ ttkbootstrap==1.14.1
 twilio==9.7.0
 typing_extensions==4.14.0
 tzdata==2025.2
-urllib3==1.26.18
+urllib3==2.5.0
 w3lib==2.3.1
 wcwidth==0.2.13
 webdriver-manager==4.0.2
