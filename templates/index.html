@@ -12,6 +12,162 @@
     <noscript
       ><link rel="stylesheet" href="static/assets/css/noscript.css"
     /></noscript>
+    <style>
+      /* Dark Theme Override */
+      body {
+        background: #0a0a0a;
+        color: #ffffff;
+      }
+
+      #wrapper {
+        background: linear-gradient(
+          135deg,
+          #0f0f1e 0%,
+          #1a1a2e 50%,
+          #16213e 100%
+        );
+        background-attachment: fixed;
+      }
+
+      #main article {
+        background: rgba(15, 15, 30, 0.95);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+      }
+
+      #main article header h2 {
+        color: #00d9ff;
+      }
+
+      #main article p,
+      #main article li {
+        color: #d0d0d0;
+      }
+
+      #main article h3 {
+        color: #00d9ff;
+        font-size: 1.1em;
+        margin-top: 1em;
+      }
+
+      /* Home panel styling */
+      .panel.intro header h1 {
+        color: #ffffff;
+        text-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+      }
+
+      .panel.intro header p {
+        color: #00d9ff;
+      }
+
+      /* Navigation */
+      #nav a {
+        background: rgba(15, 15, 30, 0.9);
+        border: 1px solid rgba(0, 217, 255, 0.3);
+        color: #00d9ff;
+      }
+
+      #nav a:hover {
+        background: rgba(0, 217, 255, 0.2);
+        border-color: #00d9ff;
+      }
+
+      #nav a.active {
+        background: rgba(0, 217, 255, 0.3);
+      }
+
+      /* Form elements */
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+      }
+
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus {
+        border-color: #00d9ff;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      input[type="text"]::placeholder,
+      input[type="email"]::placeholder,
+      textarea::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      input[type="submit"] {
+        background: #00d9ff;
+        color: #0a0a0a;
+        font-weight: bold;
+        border: none;
+      }
+
+      input[type="submit"]:hover {
+        background: #00b8d4;
+        box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+      }
+
+      /* Links */
+      a {
+        color: #00d9ff;
+      }
+
+      a:hover {
+        color: #00b8d4;
+      }
+
+      /* Footer */
+      #footer {
+        background: rgba(10, 10, 10, 0.95);
+        color: #888;
+      }
+
+      #footer a {
+        color: #00d9ff;
+      }
+
+      /* Image overlays */
+      .image.fit img {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+
+      .image.fit:hover img {
+        transform: scale(1.05);
+        box-shadow: 0 5px 30px rgba(0, 217, 255, 0.3);
+      }
+
+      /* Project descriptions under images */
+      #work .col-4 p,
+      #work .col-6-medium p {
+        color: #d0d0d0;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+      }
+
+      /* Scrollbar styling for webkit browsers */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #00d9ff;
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00b8d4;
+      }
+    </style>
   </head>
   <body class="is-preload">
     <!-- Wrapper-->
